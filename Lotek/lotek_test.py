@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Mar  4 20:56:23 2022
-
-@author: gorbizone
-
 Testing module for Lotek (PyCamp - Module 0)
 """
 
