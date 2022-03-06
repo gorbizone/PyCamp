@@ -24,8 +24,10 @@ def take_user_numbers():
 
     while i in range(7):
         number = input(f'Podaj liczbę {i}: ')
-        if int(number) in numbers:
-            print('Podałes już taką liczbę')
+        if number.isdigit() == False:
+            print('Podaj liczbę, nie tekst!')
+        elif int(number) in numbers:
+            print('Podałes już taką liczbę!')
         elif int(number) >= 1 and int(number) <= 49:
             numbers.add(int(number))
             i += 1
